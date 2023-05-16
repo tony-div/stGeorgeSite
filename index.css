@@ -1,0 +1,71 @@
+body {
+    background-color: #141414;
+    color: #f7f7f7;
+    font-family: 'Courier New', 'Changa', monospace;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#big {
+    padding-bottom: 100px;
+}
+  
+#header {
+    background-color: #1c1c1c;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #f7f7f7;
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+  
+input {
+    margin: 0;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    background-color: #1c1c1c;
+    color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+  
+input:hover {
+    background-color: #f7f7f7;
+    color: #1c1c1c;
+}
+  
+.container {
+    height: 6rem;
+    position: relative;
+}
+  
+#contact {
+    height: 3rem;
+    position: fixed;
+    padding: 1rem;
+    bottom: 0rem;
+    font-size: 2rem;
+    background-color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+    color:#1c1c1c;
+}
+#contact a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #25d366;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+}
+  
+#contact a:hover {
+    background-color: #128c7e;
+}
+  
